@@ -6,8 +6,21 @@ html, body{
     line-height: 1.8em;
     color: #666;
 }
-.background_image1 {
-    background-image: url("image1.png");
+.background_image1{
+    background-image:url("image1.png")
+}
+
+.background_image2{
+    background-image: url("image2.png");
+
+}
+
+.background_image3{
+    background-image: url("image3.png");
+}
+
+.background_image1, .background_image2, .background_image3{
+
     min-height: 100%;
     position: relative;
     background-position: center;
@@ -36,4 +49,9 @@ html, body{
     font-size: 27px;
     letter-spacing: 8px;
     text-transform: uppercase;
+}
+
+.section-dark{
+    background-color: #313534;
+    color: #ddd;
 }
